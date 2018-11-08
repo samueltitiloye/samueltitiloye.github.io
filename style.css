@@ -1,0 +1,56 @@
+body, html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 50px;
+  border-width: -1px;
+  border-color: #212F3C; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("focus.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-md {
+  padding: 1rem 1rem; 
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000; }
+
+.btn-primary:hover {
+  background-color: #000000;
+  border-color: #FFFFFF;
+  border-width: 3px;
+  cursor: pointer;
+}
